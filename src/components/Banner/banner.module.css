@@ -1,0 +1,52 @@
+.skill1 {
+  animation-name: swing;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.skill2 {
+    animation-name: swing;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+  }
+
+  .skill3 {
+    animation-name: swing2;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  .skill4 {
+      animation-name: swing2;
+      animation-duration: 2.5s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-delay: 1.5s;
+    }
+
+@keyframes swing {
+  0% {
+    right: 0px;
+  }
+  50% {
+    right: 80px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+@keyframes swing2 {
+    0% {
+      left: 0px;
+    }
+    50% {
+      left: 80px;
+    }
+    100% {
+      left: 0px;
+    }
+  }
