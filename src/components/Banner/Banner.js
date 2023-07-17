@@ -7,7 +7,7 @@ const Banner = () => {
     <div className="flex justify-center">
       <div className="flex items-center flex-col-reverse md:flex-row justify-between p-2 min-h-screen w-full max-w-[1000px]">
         <div className="  flex flex-col py-12 md:w-1/2">
-          <p className="text-[#fff] text-xs">Hello I'm</p>
+          <p className="text-[#fff] text-xs">Hello I&apos;m</p>
           <p className="text-2xl text-white font-semibold">Md Robin Hossain,</p>
           {/* <p className="text-[#4bd5ff]">Fullstack Engineer</p> */}
 
@@ -30,8 +30,8 @@ const Banner = () => {
             >
               Download Resume
             </a>
-            <button className="py-2 px-4 rounded duration-300 hover:bg-white m-4 bg-[#4bd5ff]">
-              Let's Talk
+            <button className="py-2 text-white hover:text-[#4bd5ff] px-4 rounded duration-300 hover:bg-white m-4 bg-[#4bd5ff]">
+              Let&apos;s Talk
             </button>
           </div>
         </div>
