@@ -20,7 +20,7 @@ const con = [
 ];
 const Contact = () => {
   return (
-    <div className="max-w-[1000px] mx-auto p-4 min-h-screen">
+    <div id="Contact" className="max-w-[1000px] mx-auto p-4 min-h-screen">
       <SectionHeader title="Get in Touch" />
       <div className="md:flex items-center justify-between">
         <div className="md:w-1/2">

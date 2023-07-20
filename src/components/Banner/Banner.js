@@ -1,13 +1,14 @@
 import React from "react";
-import Intro from "../intro/Intro";
 import RightBanner from "./rightBanner";
+// import f from "./../../assets/files/Resume of Robin.pdf"
+
 
 const Banner = () => {
   return (
-    <div className="flex justify-center">
+    <div id="Home" className="flex justify-center">
       <div className="flex items-center flex-col-reverse md:flex-row justify-between p-2 min-h-screen w-full max-w-[1000px]">
         <div className="  flex flex-col py-12 md:w-1/2">
-          <p className="text-[#fff] text-xs">Hello I&apos;m</p>
+          <p className="text-[#fff] text-sm">Hello I&apos;m</p>
           <p className="text-2xl text-white font-semibold">Md Robin Hossain,</p>
           {/* <p className="text-[#4bd5ff]">Fullstack Engineer</p> */}
 
@@ -23,10 +24,11 @@ const Banner = () => {
             contributing to the success of the team.
           </div>
           <div>
-            <a
+            <a target="_blank"
               className="text-white py-2 px-4 rounded border-[#4bd5ff] duration-300 hover:bg-[#4bd5ff] border"
-              href=""
-              download
+              href="https://drive.google.com/file/d/1rceZlfJS9P2Pm42PnxiwcLgbgAsjJAds/view?usp=sharing"
+              name="Resume Of Robin"
+              // download
             >
               Download Resume
             </a>

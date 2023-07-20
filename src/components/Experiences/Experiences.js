@@ -8,7 +8,7 @@ import SectionHeader from "../Shared/SectionHeader";
 
 const Experiences = () => {
   return (
-    <div className="flex justify-center items-center">
+    <div id="Experience" className="flex justify-center items-center">
       <div className="max-w-[1000px] min-h-screen p-2">
         <SectionHeader title="Professional Experience" />
         <div className="md:flex">
