@@ -1,5 +1,7 @@
 import React from "react";
 import { AiFillLinkedin, AiFillGithub, AiFillFacebook } from "react-icons/ai";
+import { SiLeetcode } from "react-icons/si";
+import { FaTwitterSquare } from "react-icons/fa";
 
 const items = [
   { title: "Home", url: "#" },
@@ -12,9 +14,12 @@ const items = [
 ];
 
 const socialItems = [
-  { title: "LinkedIn", url: "s", icon: <AiFillLinkedin /> },
-  { title: "Facebook", url: "s", icon: <AiFillFacebook /> },
-  { title: "Github", url: "s", icon: <AiFillGithub /> },
+  { title: "LinkedIn", url: "https://www.linkedin.com/in/md-robin-hossain-5b783a233/", icon: <AiFillLinkedin /> },
+  { title: "Facebook", url: "https://www.facebook.com/mdrobin.hosseain.7/", icon: <AiFillFacebook /> },
+  { title: "Github", url: "https://github.com/hossainmdrobin", icon: <AiFillGithub /> },
+  { title: "Leetcode", url: "https://leetcode.com/u/hossainmdrobin967/", icon: <SiLeetcode /> },
+  { title: "Twitter", url: "https://x.com/MdRobinHos99084", icon: <FaTwitterSquare /> },
+  
 ];
 
 const Menu = () => {
@@ -56,12 +61,13 @@ const Menu = () => {
       </div>
       <div className="flex items-center">
         {socialItems.map((item, i) => (
-          <span
+          <a href={item.url} target="_blank"
             className="text-3xl hover:text-white cursor-pointer mx-[1px] md:mx-2 my-4"
             key={i}
           >
-            {item.icon}
-          </span>
+            <abbr title={item.title}>{item.icon}</abbr>
+            
+          </a>
         ))}
       </div>
     </div>

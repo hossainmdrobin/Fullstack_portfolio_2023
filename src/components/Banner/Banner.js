@@ -28,13 +28,16 @@ const Banner = () => {
               className="text-white py-2 px-4 rounded border-[#4bd5ff] duration-300 hover:bg-[#4bd5ff] border"
               href="https://drive.google.com/file/d/1rceZlfJS9P2Pm42PnxiwcLgbgAsjJAds/view?usp=sharing"
               name="Resume Of Robin"
-              // download
+            // download
             >
               Download Resume
             </a>
-            <button className="py-2 text-white hover:text-[#4bd5ff] px-4 rounded duration-300 hover:bg-white m-4 bg-[#4bd5ff]">
-              Let&apos;s Talk
-            </button>
+            <a href= 'https://wa.me/+8801772784031' target="_blank">
+              <button className="py-2 text-white hover:text-[#4bd5ff] px-4 rounded duration-300 hover:bg-white m-4 bg-[#4bd5ff]">
+                Let&apos;s Talk
+              </button>
+            </a>
+
           </div>
         </div>
         <div className="w-1/2 flex justify-center">

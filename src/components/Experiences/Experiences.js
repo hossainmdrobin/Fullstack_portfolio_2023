@@ -20,7 +20,7 @@ const Experiences = () => {
               <div className="pl-2">
                 <h1 className="text-white text-3xl">ITCO</h1>
                 <p className="text-white">IT, Dhaka</p>
-                <p className="text-[#4bd5ff] font-semibold">2022 - Present</p>
+                <p className="text-[#4bd5ff] font-semibold">2022 - 2023</p>
                 <a
                   href="https://shongshari.com"
                   target="blank"

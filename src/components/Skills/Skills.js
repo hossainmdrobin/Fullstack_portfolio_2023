@@ -5,7 +5,7 @@ import { BsPatchCheckFill } from "react-icons/bs";
 
 const Skills = () => {
   return (
-    <div className="flex justify-center items-center ">
+    <div className="flex justify-center items-center">
       <div className="max-w-[1000px]">
         <SectionHeader title="My Skills" />
         <div className="md:flex w-full ">
